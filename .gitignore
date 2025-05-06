@@ -1,0 +1,38 @@
+# Ignore virtual environments
+myenv/
+env/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore compiled translation files
+*.mo
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# Static/media file dumps (optional)
+staticfiles/
+media/
+
+# Ignore migrations (optional, if regenerating)
+# **/migrations/
